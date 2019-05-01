@@ -1,13 +1,20 @@
 {
   "name": "@magicdawn/rp",
   "version": "0.0.1",
-  "description": "a simple promise version request",
+  "description": "lightweight promise api for request",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "test-cover": "nyc --reporter=lcov --reporter=text mocha",
     "report-cover": "codecov"
   },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/magicdawn/rp.git"
