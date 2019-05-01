@@ -20,7 +20,7 @@ npm i @magicdawn/rp --save
 const rp = require('@magicdawn/rp')
 ```
 
-### rp()
+### `rp()`
 
 ```js
 rp(options)
@@ -32,7 +32,7 @@ rp(options)
   })
 ```
 
-### rp.<http-verb>()
+### `rp.<http-verb>()`
 
 ```js
 rp.get(url, options)
