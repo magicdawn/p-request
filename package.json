@@ -1,5 +1,5 @@
 {
-  "name": "promise.request",
+  "name": "@magicdawn/rp",
   "version": "0.0.1",
   "description": "a simple promise version request",
   "main": "index.js",
@@ -10,21 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/magicdawn/promise.request.git"
+    "url": "git+ssh://git@github.com/magicdawn/rp.git"
   },
   "keywords": [
     "request",
     "request-promise",
     "rp",
-    "promise.request",
+    "rp",
     "pr"
   ],
   "author": "magicdawn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/magicdawn/promise.request/issues"
+    "url": "https://github.com/magicdawn/rp/issues"
   },
-  "homepage": "https://github.com/magicdawn/promise.request#readme",
+  "homepage": "https://github.com/magicdawn/rp#readme",
   "devDependencies": {
     "codecov": "^3.3.0",
     "eslint": "^5.16.0",
