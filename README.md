@@ -1,6 +1,6 @@
 # rp
 
-> lightweight promise api for request
+> lightweight promise api for [request](https://github.com/request/request#requestoptions-callback)
 
 [![Build Status](https://img.shields.io/travis/magicdawn/rp.svg?style=flat-square)](https://travis-ci.org/magicdawn/rp)
 [![Coverage Status](https://img.shields.io/codecov/c/github/magicdawn/rp.svg?style=flat-square)](https://codecov.io/gh/magicdawn/rp)
