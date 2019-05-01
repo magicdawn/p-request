@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-$ npm i @magicdawn/rp --save
+npm i @magicdawn/rp --save
 ```
 
 ## API
