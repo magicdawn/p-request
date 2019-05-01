@@ -20,6 +20,30 @@ npm i @magicdawn/rp --save
 const rp = require('@magicdawn/rp')
 ```
 
+### rp()
+
+```js
+rp(options)
+  .then(([res, body]) => {
+    /* blabla */
+  })
+  .catch(err => {
+    /* blabla */
+  })
+```
+
+### rp.<http-verb>()
+
+```js
+rp.get(url, options)
+  .then(([res, body]) => {
+    /* blabla */
+  })
+  .catch(err => {
+    /* blabla */
+  })
+```
+
 ## Changelog
 
 [CHANGELOG.md](CHANGELOG.md)
