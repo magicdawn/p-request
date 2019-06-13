@@ -1,6 +1,6 @@
 {
   "name": "@magicdawn/rp",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "lightweight promise api for request",
   "main": "index.js",
   "scripts": {
