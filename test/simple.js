@@ -6,6 +6,7 @@ describe('Simple', function() {
     const [res, body] = await rp({
       method: 'GET',
       url: 'https://www.baidu.com/',
+      strictSSL: false,
     })
 
     // res
@@ -17,7 +18,9 @@ describe('Simple', function() {
   })
 
   it('http verb method works', async () => {
-    const [res, body] = await rp.get('https://www.baidu.com/')
+    const [res, body] = await rp.get('https://www.baidu.com/', {
+      strictSSL: false,
+    })
 
     // res
     res.should.be.instanceof(IncomingMessage)

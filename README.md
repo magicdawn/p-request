@@ -44,6 +44,15 @@ rp.get(url, options)
   })
 ```
 
+### `rp.createFrom(request)`
+
+- create a rp instance from a request instance
+- the request instance can be `require('request')` or `require('request').defaults()`
+
+### `rp.defaults(options)`
+
+same as `rp.createFrom(request.defaults(options))`
+
 ## Changelog
 
 [CHANGELOG.md](CHANGELOG.md)

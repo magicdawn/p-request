@@ -13,13 +13,30 @@ const methods = [
   'delete',
 ]
 
-const create = () => {
+const createFrom = request => {
+  // self `request()`
   const rp = pify(request)
+
+  // add `request.<method>()`
   for (let m of methods) {
-    rp[m] = pify(request[m], rp)
+    if (request[m]) {
+      rp[m] = pify(request[m], rp)
+    }
   }
+
   return rp
 }
 
-const rp = create()
+// default
+const rp = createFrom(request)
 module.exports = rp
+
+// rp.defaults()
+module.exports.defaults = function(options) {
+  const newRequest = request.defaults(options)
+  const newRp = createFrom(newRequest)
+  return newRp
+}
+
+// exports createFrom
+module.exports.createFrom = createFrom
